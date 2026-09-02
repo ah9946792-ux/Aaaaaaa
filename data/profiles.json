@@ -1,0 +1,143 @@
+[
+  {
+    "id": "CU-705693",
+    "googleId": "test-123",
+    "email": "test@test.com",
+    "displayName": "Tester",
+    "photoURL": "https://api.dicebear.com/7.x/bottts/svg?seed=CU-705693",
+    "createdAt": "2026-09-01T11:37:07.880Z",
+    "lastLoginAt": "2026-09-01T11:37:07.880Z",
+    "currentSelectedMode": null,
+    "gameProgress": {
+      "level": 1,
+      "xp": 0,
+      "xpToNextLevel": 500,
+      "rankTitle": "Rookie Cricketer",
+      "totalMatchesPlayed": 0,
+      "reputation": 100
+    },
+    "currency": {
+      "coins": 1000,
+      "gems": 50,
+      "energy": 100,
+      "maxEnergy": 100
+    },
+    "settings": {
+      "soundEnabled": true,
+      "musicEnabled": true,
+      "graphicsQuality": "high",
+      "matchSpeed": "1x",
+      "themeAccent": "emerald",
+      "notifications": true,
+      "autoSaveCloud": true
+    },
+    "careerData": null,
+    "dreamTeamData": null,
+    "managerData": null,
+    "tournamentData": null,
+    "playerCollections": [],
+    "achievements": [
+      {
+        "id": "ach_welcome",
+        "title": "Welcome to Cricket Universe",
+        "unlockedAt": "2026-09-01T11:37:07.880Z"
+      }
+    ],
+    "records": {},
+    "rankings": {}
+  },
+  {
+    "id": "CU-157988",
+    "googleId": "google-sub-799010666083-tafi",
+    "email": "tafiahmadabuhuraira@gmail.com",
+    "displayName": "Tafi Ahmad",
+    "photoURL": "https://api.dicebear.com/7.x/bottts/svg?seed=CU-157988",
+    "createdAt": "2026-09-01T11:38:46.332Z",
+    "lastLoginAt": "2026-09-01T15:49:10.595Z",
+    "currentSelectedMode": null,
+    "gameProgress": {
+      "level": 1,
+      "xp": 0,
+      "xpToNextLevel": 500,
+      "rankTitle": "Rookie Cricketer",
+      "totalMatchesPlayed": 0,
+      "reputation": 100
+    },
+    "currency": {
+      "coins": 1000,
+      "gems": 50,
+      "energy": 100,
+      "maxEnergy": 100
+    },
+    "settings": {
+      "soundEnabled": true,
+      "musicEnabled": true,
+      "graphicsQuality": "high",
+      "matchSpeed": "1x",
+      "themeAccent": "emerald",
+      "notifications": true,
+      "autoSaveCloud": true
+    },
+    "careerData": null,
+    "dreamTeamData": null,
+    "managerData": null,
+    "tournamentData": null,
+    "playerCollections": [],
+    "achievements": [
+      {
+        "id": "ach_welcome",
+        "title": "Welcome to Cricket Universe",
+        "unlockedAt": "2026-09-01T11:38:46.332Z"
+      }
+    ],
+    "records": {},
+    "rankings": {}
+  },
+  {
+    "id": "CU-853975",
+    "googleId": "test-google-user-123",
+    "email": "test@gmail.com",
+    "displayName": "Test Cricketer",
+    "photoURL": "https://api.dicebear.com/7.x/bottts/svg?seed=CU-853975",
+    "createdAt": "2026-09-01T16:17:41.707Z",
+    "lastLoginAt": "2026-09-01T16:17:41.707Z",
+    "currentSelectedMode": null,
+    "gameProgress": {
+      "level": 1,
+      "xp": 0,
+      "xpToNextLevel": 500,
+      "rankTitle": "Rookie Cricketer",
+      "totalMatchesPlayed": 0,
+      "reputation": 100
+    },
+    "currency": {
+      "coins": 1000,
+      "gems": 50,
+      "energy": 100,
+      "maxEnergy": 100
+    },
+    "settings": {
+      "soundEnabled": true,
+      "musicEnabled": true,
+      "graphicsQuality": "high",
+      "matchSpeed": "1x",
+      "themeAccent": "emerald",
+      "notifications": true,
+      "autoSaveCloud": true
+    },
+    "careerData": null,
+    "dreamTeamData": null,
+    "managerData": null,
+    "tournamentData": null,
+    "playerCollections": [],
+    "achievements": [
+      {
+        "id": "ach_welcome",
+        "title": "Welcome to Cricket Universe",
+        "unlockedAt": "2026-09-01T16:17:41.707Z"
+      }
+    ],
+    "records": {},
+    "rankings": {}
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "Cricket Universe",
+  "description": "Professional cricket simulation game featuring realistic physics-driven match engines (T20, ODI, Test, DRS Hawk-Eye, DLS rain protocols, tactical decision mechanics), authenticated user accounts, My Career Mode, Dream Team franchise builder, Manager Career, 20-Nation International Tournaments, and exclusive player database.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

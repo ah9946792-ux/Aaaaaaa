@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>Cricket Universe — Professional Cricket Simulation</title>
+    <meta name="description" content="Professional cricket simulation game featuring realistic physics-driven match engines (T20, ODI, Test, DRS Hawk-Eye, DLS rain protocols, tactical decision mechanics), authenticated user accounts, My Career Mode, Dream Team franchise builder, Manager Career, 20-Nation International Tournaments, and exclusive player database." />
+    <meta property="og:title" content="Cricket Universe — Professional Cricket Simulation" />
+    <meta property="og:description" content="Professional cricket simulation game featuring realistic physics-driven match engines (T20, ODI, Test, DRS Hawk-Eye, DLS rain protocols, tactical decision mechanics), authenticated user accounts, My Career Mode, Dream Team franchise builder, Manager Career, 20-Nation International Tournaments, and exclusive player database." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Android PWA & Native Mobile Settings -->
+    <meta name="theme-color" content="#020617" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/jpeg" href="/src/assets/images/cricket_app_icon_1788190504464.jpg" />
+    <link rel="apple-touch-icon" href="/src/assets/images/cricket_app_icon_1788190504464.jpg" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      // Clean up any stale service workers or caches that may intercept API requests
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then((registrations) => {
+          for (const registration of registrations) {
+            registration.unregister();
+          }
+        }).catch(() => {});
+      }
+      if ('caches' in window) {
+        caches.keys().then((names) => {
+          for (const name of names) {
+            caches.delete(name);
+          }
+        }).catch(() => {});
+      }
+    </script>
+  </body>
+</html>

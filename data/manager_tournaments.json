@@ -1,0 +1,168 @@
+[
+  {
+    "id": "tour_global_champions_cup",
+    "name": "Global Manager Champions Cup 2026",
+    "tier": "Major World Class",
+    "format": "League + Knockout",
+    "status": "registration",
+    "entryFee": 500,
+    "prizePool": 25000,
+    "maxClubs": 8,
+    "registeredClubs": [
+      {
+        "clubId": "MC-BOT-01",
+        "clubName": "London Titans CC",
+        "managerName": "Lord Sterling",
+        "country": "England",
+        "rating": 84,
+        "reputation": 600,
+        "squadPlayerIds": [
+          "eng_joe_root",
+          "eng_harry_brook",
+          "eng_jofra_archer"
+        ]
+      },
+      {
+        "clubId": "MC-BOT-02",
+        "clubName": "Sydney Thunderbolts",
+        "managerName": "Brett W.",
+        "country": "Australia",
+        "rating": 85,
+        "reputation": 650,
+        "squadPlayerIds": [
+          "aus_travis_head",
+          "aus_mitchell_starc"
+        ]
+      },
+      {
+        "clubId": "MC-BOT-03",
+        "clubName": "Mumbai Royals",
+        "managerName": "Vikram Mehta",
+        "country": "India",
+        "rating": 86,
+        "reputation": 700,
+        "squadPlayerIds": [
+          "ind_surya_kumar_yadav",
+          "ind_hardik_pandya",
+          "ind_shubman_gill"
+        ]
+      },
+      {
+        "clubId": "MC-BOT-04",
+        "clubName": "Dhaka Dragons CC",
+        "managerName": "Aminul Islam",
+        "country": "Bangladesh",
+        "rating": 81,
+        "reputation": 520,
+        "squadPlayerIds": [
+          "ban_mehidy_hasan_miraz",
+          "ban_towhid_hridoy"
+        ]
+      }
+    ],
+    "fixtures": [
+      {
+        "id": "fix_gcc_01",
+        "roundName": "Quarter-Final 1",
+        "homeClubId": "MC-BOT-01",
+        "homeClubName": "London Titans CC",
+        "awayClubId": "MC-BOT-02",
+        "awayClubName": "Sydney Thunderbolts",
+        "status": "scheduled"
+      },
+      {
+        "id": "fix_gcc_02",
+        "roundName": "Quarter-Final 2",
+        "homeClubId": "MC-BOT-03",
+        "homeClubName": "Mumbai Royals",
+        "awayClubId": "MC-BOT-04",
+        "awayClubName": "Dhaka Dragons CC",
+        "status": "scheduled"
+      }
+    ],
+    "standings": [
+      {
+        "position": 1,
+        "clubId": "MC-BOT-03",
+        "clubName": "Mumbai Royals",
+        "managerName": "Vikram Mehta",
+        "played": 1,
+        "won": 1,
+        "lost": 0,
+        "points": 2,
+        "nrr": 1.25
+      },
+      {
+        "position": 2,
+        "clubId": "MC-BOT-01",
+        "clubName": "London Titans CC",
+        "managerName": "Lord Sterling",
+        "played": 1,
+        "won": 1,
+        "lost": 0,
+        "points": 2,
+        "nrr": 0.85
+      },
+      {
+        "position": 3,
+        "clubId": "MC-BOT-02",
+        "clubName": "Sydney Thunderbolts",
+        "managerName": "Brett W.",
+        "played": 1,
+        "won": 0,
+        "lost": 1,
+        "points": 0,
+        "nrr": -0.85
+      },
+      {
+        "position": 4,
+        "clubId": "MC-BOT-04",
+        "clubName": "Dhaka Dragons CC",
+        "managerName": "Aminul Islam",
+        "played": 1,
+        "won": 0,
+        "lost": 1,
+        "points": 0,
+        "nrr": -1.25
+      }
+    ]
+  },
+  {
+    "id": "tour_subcontinent_super_cup",
+    "name": "Subcontinent Super League Trophy",
+    "tier": "Premier Division",
+    "format": "Round Robin",
+    "status": "registration",
+    "entryFee": 250,
+    "prizePool": 12000,
+    "maxClubs": 6,
+    "registeredClubs": [
+      {
+        "clubId": "MC-BOT-05",
+        "clubName": "Lahore Warriors",
+        "managerName": "Zubair Khan",
+        "country": "Pakistan",
+        "rating": 83,
+        "reputation": 510,
+        "squadPlayerIds": [
+          "pak_shadab_khan",
+          "pak_haris_rauf"
+        ]
+      },
+      {
+        "clubId": "MC-BOT-06",
+        "clubName": "Colombo Blasters",
+        "managerName": "Sanath P.",
+        "country": "Sri Lanka",
+        "rating": 82,
+        "reputation": 480,
+        "squadPlayerIds": [
+          "sl_wanindu_hasaranga",
+          "sl_matheesha_pathirana"
+        ]
+      }
+    ],
+    "fixtures": [],
+    "standings": []
+  }
+]
